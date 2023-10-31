@@ -1,11 +1,11 @@
 name: CI
 
 on:
-  merge_group:
-  pull_request:
-    branches: [main, "release-*"]
-    paths-ignore:
-      - "website/**"
+  # merge_group:
+  # pull_request:
+  #   branches: [main, "release-*"]
+  #   paths-ignore:
+  #     - "website/**"
   workflow_dispatch:
 
 concurrency:
