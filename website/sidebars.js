@@ -100,6 +100,22 @@ const sidebars = {
           id: "zkvm/examples",
         },
         {
+          type: "category",
+          label: "Tutorials",
+          link: {
+            type: `doc`,
+            id: "tutorials/overview",
+          },
+          collapsed: false,
+          items: [
+            {
+              type: "doc",
+              label: "Hello World Tutorial",
+              id: "tutorials/hello-world",
+            },
+          ],
+        },
+        {
           type: "link",
           label: "Source code",
           href: "https://github.com/risc0/risc0",
